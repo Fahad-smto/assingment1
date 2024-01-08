@@ -2,12 +2,9 @@
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(resources/Banner\ Image.png);
     width: 1320px;
     height: 400px;
-    flex-shrink: 0;
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 10px;
-  
 }
 .img-happy-new{
 
@@ -128,7 +125,7 @@ border-radius: 8px;
 background: #F00;
 }
 .sec-4{
-    margin-left: 40px;
+margin-left: 40px;
  width: 1320px;
 height: 500px;
 background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -142,7 +139,8 @@ background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 
     width: 1320px;
     height: 500px;
     margin-top: 100px;
-    padding: 10px;
+     justify-content: center;
+    
     
 }
 .text-sec5{
@@ -159,7 +157,6 @@ line-height: normal;
 }
 .coming{
 color: #070211;
-font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
 font-weight: 900;
@@ -209,6 +206,9 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+.holiday-text{
+    color: dimgray;
+}
 .what{
 color: #070211;
 font-size: 24px;
@@ -239,10 +239,115 @@ font-weight: 400;
 .sec-8{
     display: flex;
     margin-left: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 .sec-9{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 100px;
+}
+.sec10{
+width: 1200px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-left: 80px;
+margin-top: 80px;
+}
+.sub{
+ color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+}
+.paragraph3{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.img-61{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.search-bar{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+form{
+    background-color: #FFF;
+    width: 600px;
+    height: 66px;
+    display: flex;
+   
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+ background-color: salmon;
+padding: 10px 50px;
+border: none;
+outline: none;
+color: #FFF;
+letter-spacing: 1px;
+cursor: pointer;
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+ 
+}
+.form{
+    border-bottom-left-radius: 30px;
+}
+.footer{
+width: 1500px;
+height: 209px;
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+background-color: #070211;
+}
+.text-footer{
+    color: #FFF;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.text-footer2{
+    color: #FFF;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+.img-footer{
+    background-color: #070211;
+     padding-left: 600px;
+     height: 200px;
+     width:900px;
+}
+.footer-div2{
+    background-color: #070211;
+    color: #FFF;
+  justify-content: space-between;
+  display: block;
+}
+.copyright{
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.hover-img :hover{
+    opacity: 0.3;
+    transition: 0.5s;   
+    
 }
